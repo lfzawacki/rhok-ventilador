@@ -6,12 +6,14 @@
 
 <div class="clear"></div>
 
-<!-- @TODO: fazer um foreach nos problemas -->
-<div class="grid_12">
-   <div class="grid_3 alpha"><%= render_problem(1) %></div>
-   <div class="grid_3"><%= render_problem(1) %></div>
-   <div class="grid_3"><%= render_problem(1) %></div>
-   <div class="grid_3 omega"><%= render_problem(1) %></div>
-</div>
+<% @requests.in_groups_of(4) do |requests| %>
+  <div class="grid_12">
+     <div class="grid_3 alpha"><%= render_problem(requests[0]) %></div>
+     <div class="grid_3"><%= render_problem(requests[1]) %></div>
+     <div class="grid_3"><%= render_problem(requests[2]) %></div>
+     <div class="grid_3 omega"><%= render_problem(requests[3]) %></div>
+  </div>
+  <hr class="blank"/>
+<% end %>
 
-<!-- @TODO: fazer paginação  -->
+<%= will_paginate @requests %>

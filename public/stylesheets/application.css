@@ -228,3 +228,10 @@ input[type=submit]:hover{
 .contact-form .inner{
   padding: 10px;
 }
+
+
+.card{
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+}

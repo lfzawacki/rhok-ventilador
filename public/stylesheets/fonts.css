@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Heydings';
+  src: url('../fonts/heydings_icons-webfont.eot');
+  src: url('../fonts/heydings_icons-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heydings_icons-webfont.woff') format('woff'),
+    url('../fonts/heydings_icons-webfont.ttf') format('truetype'),
+    url('../fonts/heydings_icons-webfont.svg#Heydings') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

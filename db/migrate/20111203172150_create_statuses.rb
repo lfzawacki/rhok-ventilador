@@ -7,9 +7,9 @@ class CreateStatuses < ActiveRecord::Migration
       t.timestamps
     end
 
-    Status.create :name => "Aberto"
-    Status.create :name => "Pendente"
-    Status.create :name => "Resolvido"
-    Status.create :name => "Não Resolvido"
+    Status.create name: "Aberto"
+    Status.create name: "Pendente"
+    Status.create name: "Resolvido"
+    Status.create name: "Não Resolvido"
   end
 end

@@ -6,7 +6,7 @@
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
 
-User.create(:name => "Gabriel", :email => "gabriel@fande.com.br", :password => "asdf")
+user = User.create facebook_id: "adsf"
 
 (1..30).each do |i|
   Request.create(:name => "No light #{i}", :description => "There's no light in the street I live", :user_id => user.id, :category_id => 1)

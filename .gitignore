@@ -16,3 +16,4 @@ Desktop.ini
 *.tmproject
 tmtags
 config/database.yml
+db/schema.rb

@@ -4,5 +4,6 @@ class AddVotedIndex < ActiveRecord::Migration
   end
 
   def down
+    drop_index
   end
 end

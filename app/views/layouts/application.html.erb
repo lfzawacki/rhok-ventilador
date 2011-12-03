@@ -13,7 +13,7 @@
     <%= javascript_include_tag :defaults %>
 
     <!-- FONTS -->
-    <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:700|Actor' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
 
     <!-- CSS -->
     <%= stylesheet_link_tag :all %>
@@ -30,7 +30,11 @@
     <div class="container_12">
       <div class="grid_12">
         <ul>
-          <li><a href="/"><strong>PoaBugs</strong></a></li>
+          <li>
+            <h1>
+              <a href="/" title="poabugs início">poabugs</a>
+            </h1>
+          </li>
           <li class="right">login whit facebook</li>
         </ul>
       </div>
@@ -61,14 +65,14 @@
             <strong>Ventilador de Porto Alegre </strong> Seu canal para fazer solicitacoes de melhorias na cidade
           </p>
         </div>
-      </div>      
+      </div>
     </div>
   </div>
 
   <div class="container_12">
     <div id="content">
       <%= yield %>
-    </div>      
+    </div>
   </div>
 
   <div class="footer-wrapper">

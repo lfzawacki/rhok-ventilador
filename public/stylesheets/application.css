@@ -1,11 +1,9 @@
 body {
-  background: #fff;
+  background: #EFEFEF;
   color: #666;
   font-size: 14px;
-  height: auto;
-  padding-bottom: 20px;
-  font-family: "Actor", Georgia, serif;
-  background: url("../images/pattern4.jpg") center;
+  min-height: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -13,63 +11,23 @@ body {
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 a { text-decoration: none; }
-a:hover { color: #00497E; }
-.phone {color: #3379AE;}
 
-h1, h2, h3 { 
-  font-family: "Cabin Sketch", Georgia, serif;
-  text-align: center;
-
-  /* Emboss */
-  /*text-shadow: 0px -1px 0px #374683;*/
+h1, h2, h3, h4, h5 {
 }
 h1 {
-  font-size: 80px;
-  font-weight: normal;
-  color: #FA610B;
-  background: #fff;
-  background: rgba(255,255,255,0.9);
-/*  float: left;*/
-  width: auto;
-  padding: 5px 20px;
-  border-radius: 10px;
-  margin-top: 100px;
+  font-family: 'Bubblegum Sans', cursive;
 }
 
-h2 { 
-  font-family: "Actor", Georgia, serif;
-  font-size: 40px;
-  color: #FA610B;
-  background: #000;
-  background: rgba(0,0,0,0.7);
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  margin: 0;
-  padding: 5px 10px;
-  border-radius: 10px;
-  line-height: 1em;
+h2 {
 }
 
 h3{
-  font-size: 28px;
-  text-align: left;
-  /*font-family: "Permanent Marker", Georgia, serif;*/
-  /*font-family: "Actor", Georgia, serif;*/
-  color:#00497E;
-  line-height: 1em;
 }
 
 h4{
-  font-size: 15px;
-  color: #BBB;
-  line-height: 1em;
 }
 
-h5 {
-  line-height: 1em;
-  margin: 10px 0 ;
-  color: #FA610B;
+h5{
 }
 
 p {
@@ -107,10 +65,17 @@ p {
 .top-wrapper{
   background: #444;
   border-bottom: thin solid #333;
+  padding-top: 10px;
+}
+
+.top-wrapper img {
+  width: 100px;
 }
 
 .top-wrapper a{
-  color: #eee;
+  color: #EFEFEF;
+  font-size: 48px;
+  text-shadow: 0px -2px 5px #000;
 }
 
 .master-wrapper{
@@ -122,7 +87,7 @@ p {
   background: url("../images/pattern5.png") top;
   padding-bottom: 10px;
   margin-bottom: 10px;
-  text-shadow: 0px 0px 1px #555;
+  text-shadow: 0px 1px 0px #fff;
 }
 
 .footer-wrapper{
@@ -147,10 +112,9 @@ ul li { margin: 0 10px; display: inline;}
   position: relative;
   border-radius: 10px;
   margin-top: 10px;
-  text-align: center;
 }
 #master input[type="text"]{
-  width: 500px;
+  width: 800px;
 }
 #content p{
   text-align: left;

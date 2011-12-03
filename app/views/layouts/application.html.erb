@@ -1,14 +1,95 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>RhokVentilador</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
-</head>
-<body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content='' name='description' />
+    <meta content='' name='keywords' />
+    <meta content='' name='verify-v1' >
+    <meta content='' name='google-site-verification' >
 
-<%= yield %>
+    <title>PoaBugs! O que precisamos corrigir em Porto Alegre</title>
 
-</body>
+    <!-- JAVASCRIPTS -->
+    <script src="https://www.google.com/jsapi?key=ABQIAAAAKdw5XEOMXCqYBi6ONWo52xRjLV9efAIV51R6lhLv2_pNldTPGRQcEgrFtKG8mGMxtHMAlrxwy12CEg" type="text/javascript"></script>
+    <%= javascript_include_tag :defaults %>
+
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:700|Actor' rel='stylesheet' type='text/css'>
+
+    <!-- CSS -->
+    <%= stylesheet_link_tag :all %>
+
+    <!-- FAVICON -->
+    <link href='--------' rel='shortcut icon' />
+
+    <!-- META TAGS -->
+    <%= csrf_meta_tag %>
+  </head>
+  <body>
+
+  <div class="top-wrapper">
+    <div class="container_12">
+      <div class="grid_12">
+        <ul>
+          <li><a href="/"><strong>PoaBugs</strong></a></li>
+          <li class="right">login whit facebook</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="master-wrapper">
+    <div class="container_12">
+      <div id="master">
+        <div class="grid_12">
+          <h1>Encontre problemas atuais</h1>
+        </div>
+        <div class="grid_12">
+          <form action="/" method="post">
+            <input type="text" name="search">
+            <input type="submit" value="Buscar">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tagline-wrapper">
+    <div class="container_12">
+      <div id="call">
+        <div class="grid_12">
+          <p>
+            <strong>Ventilador de Porto Alegre </strong> Seu canal para fazer solicitacoes de melhorias na cidade
+          </p>
+        </div>
+      </div>      
+    </div>
+  </div>
+
+  <div class="container_12">
+    <div id="content">
+      <div class="grid_12">
+        <%= yield %>
+      </div>
+    </div>      
+  </div>
+
+  <div class="footer-wrapper">
+    <div class="container_12">
+      <div id="footer">
+        <div class="grid_12">
+          <div class="grid_4 alpha">
+            <h3>Criado por</h3>
+          </div>
+          <div class="grid_4">
+            <h3>Por que?</h3>
+          </div>
+          <div class="grid_4 omega">
+            <h3>Contato</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </body>
 </html>

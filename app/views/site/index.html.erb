@@ -6,7 +6,6 @@
 
 <div class="clear"></div>
 
-<!-- @TODO: fazer um foreach nos problemas -->
 <% @requests.in_groups_of(4) do |requests| %>
   <div class="grid_12">
      <div class="grid_3 alpha"><%= render_problem(requests[0]) %></div>
@@ -17,4 +16,4 @@
   <hr class="blank"/>
 <% end %>
 
-<!-- @TODO: fazer paginação  -->
+<%= will_paginate @requests %>

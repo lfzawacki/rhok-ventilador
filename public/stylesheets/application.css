@@ -10,7 +10,8 @@ body {
 /* TEXT */
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-a { text-decoration: none; }
+a { text-decoration: none; outline: none; }
+img {outline: none;}
 
 h1, h2, h3, h4, h5 {
 }
@@ -123,6 +124,10 @@ ul li { margin: 0 10px; display: inline;}
 #footer h3{
   text-align: center;
   font-family: "Cabin Sketch", Georgia, serif;
+}
+ul#categories li a{
+  font: normal 20px/1em 'Heydings';
+  color: #000;
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */

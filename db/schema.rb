@@ -11,10 +11,41 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111203172150) do
+ActiveRecord::Schema.define(:version => 20111203173909) do
+
+  create_table "categories", :force => true do |t|
+    t.string   "name"
+    t.string   "key"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "requests", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.integer  "user_id"
+    t.integer  "category_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "status_changes", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "status_id"
+    t.integer  "request_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "statuses", :force => true do |t|
     t.text     "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "votes", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "request_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

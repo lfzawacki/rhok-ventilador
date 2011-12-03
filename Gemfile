@@ -6,6 +6,7 @@ gem 'pg'
 gem 'wirble'
 gem 'hirb'
 gem 'koala'
+gem 'heroku'
 gem 'sqlite3','1.3.4'
 gem 'will_paginate'
 

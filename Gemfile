@@ -9,8 +9,6 @@ gem 'koala'
 gem 'sqlite3','1.3.4'
 gem 'will_paginate'
 
->>>>>>> aee2e7561652b93126cc27afaacbdc778b90179b
-
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:

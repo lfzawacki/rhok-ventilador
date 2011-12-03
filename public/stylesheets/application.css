@@ -44,7 +44,7 @@ p {
   float:right;
 }
 .separator{
-  border-top: dotted thin #ccc;
+  border-top: dotted 1px #ccc;
   margin: 20px 0;
 }
 
@@ -65,7 +65,7 @@ p {
 
 .top-wrapper{
   background: #444;
-  border-bottom: thin solid #333;
+  border-bottom: 1px solid #333;
   padding-top: 10px;
 }
 
@@ -111,11 +111,20 @@ ul li { margin: 0 10px; display: inline;}
 
 #master div{
   position: relative;
-  border-radius: 10px;
   margin-top: 10px;
 }
 #master input[type="text"]{
-  width: 800px;
+  border: none;
+  box-shadow: 0 0 5px 5px #ddd;
+    -moz-box-shadow: 0 0 5px 5px #ddd;
+    -webkit-box-shadow: 0 0 5px 5px #ddd;
+  width: 460px;
+}
+#master input[type="submit"]{
+  background: url('../images/search.png') no-repeat;
+  border: none;
+  height: 45px;
+  width: 45px;
 }
 #content p{
   text-align: left;
@@ -149,10 +158,7 @@ dd {
 
 select, input[type="text"], textarea{
   background: #fff;
-  border: dotted thin #ddd;
-  border-radius: 10px;
   padding: 10px;
-  width: 200px;
   outline: none;
 }
 select {
@@ -165,29 +171,10 @@ label{
 }
 
 input[type=submit]{
-  font-family: "Actor", Georgia, serif;
-  font-size: 16px;
-  display: inline-block;
-  position: relative;
-  padding: 7px 15px;
-  -webkit-border-radius: 18px;
-  -moz-border-radius: 18px;
-  border-radius: 18px;
-  background-color: #a6F4c3;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#a6f4c3), to(#44b873)) !important;
-  background-image: -webkit-linear-gradient(top, #a6f4c3, #44b873) !important;
-  background-image: -moz-linear-gradient(top, #a6f4c3, #44b873) !important;
-  background-image: -ms-linear-gradient(top, #a6f4c3, #44b873) !important;
-  background-image: -o-linear-gradient(top, #a6f4c3, #44b873) !important;
-  color: white !important;
-  box-shadow: inset 0 1px 1px white, 0 3px 3px rgba(0,0,0,0.6);
-  border: 1px solid #8AFFB9 !important;
-  font-weight: 600;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-}
-input[type=submit]:hover{
   cursor:pointer;
   cursor:hand;
+}
+input[type=submit]:hover {
 }
 
 .contact-form{

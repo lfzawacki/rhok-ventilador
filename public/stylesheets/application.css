@@ -193,7 +193,9 @@ input[type=submit]:hover{
   padding: 10px;
 }
 
-
+.blank{
+  border-color: #fff;
+}
 .card{
   height: 300px;
   border-radius: 10px;

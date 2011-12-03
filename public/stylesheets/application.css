@@ -143,11 +143,14 @@ ul li { margin: 0 10px; display: inline;}
 /* IDs */
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-#master div {
-  height: 350px;
+#master div{
   position: relative;
   border-radius: 10px;
   margin-top: 10px;
+  text-align: center;
+}
+#master input[type="text"]{
+  width: 500px;
 }
 #content p{
   text-align: left;

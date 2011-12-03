@@ -1,0 +1,227 @@
+body {
+  background: #fff;
+  color: #666;
+  font-size: 14px;
+  height: auto;
+  padding-bottom: 20px;
+  font-family: "Actor", Georgia, serif;
+  background: url("../images/pattern4.jpg") center;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* TEXT */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+a { text-decoration: none; }
+a:hover { color: #00497E; }
+.phone {color: #3379AE;}
+
+h1, h2, h3 { 
+  font-family: "Cabin Sketch", Georgia, serif;
+  text-align: center;
+
+  /* Emboss */
+  /*text-shadow: 0px -1px 0px #374683;*/
+}
+h1 {
+  font-size: 80px;
+  font-weight: normal;
+  color: #FA610B;
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+/*  float: left;*/
+  width: auto;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+h2 { 
+  font-family: "Actor", Georgia, serif;
+  font-size: 40px;
+  color: #FA610B;
+  background: #000;
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin: 0;
+  padding: 5px 10px;
+  border-radius: 10px;
+  line-height: 1em;
+}
+
+h3{
+  font-size: 28px;
+  text-align: left;
+  /*font-family: "Permanent Marker", Georgia, serif;*/
+  /*font-family: "Actor", Georgia, serif;*/
+  color:#00497E;
+  line-height: 1em;
+}
+
+h4{
+  font-size: 15px;
+  color: #BBB;
+  line-height: 1em;
+}
+
+h5 {
+  line-height: 1em;
+  margin: 10px 0 ;
+  color: #FA610B;
+}
+
+p {
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+.right{
+  float:right;
+}
+.separator{
+  border-top: dotted thin #ccc;
+  margin: 20px 0;
+}
+
+.price{
+  font-size: 12px;
+  color: #aaa;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* 960.gs */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.container_12,
+.container_16,
+.container_24 {
+  margin: 0px auto;
+  border-radius: 10px;
+}
+
+.top-wrapper{
+  background: #444;
+  border-bottom: thin solid #333;
+}
+
+.top-wrapper a{
+  color: #eee;
+}
+
+.master-wrapper{
+  background: url("../images/carnaval_de_salvador_6.jpg") center;
+  padding-bottom: 10px;
+}
+
+.tagline-wrapper{
+  background: url("../images/pattern5.png") top;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 1px #555;
+}
+
+.footer-wrapper{
+  background: #f8f8f8;
+  padding: 15px 0;
+  margin-top:20px;
+  margin-bottom:0;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Lists */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+ul { padding: 10px; margin: 0;}
+ul li { margin: 0 10px; display: inline;}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* IDs */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#master div {
+  height: 350px;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+#content p{
+  text-align: left;
+}
+
+#footer h3{
+  text-align: center;
+  font-family: "Cabin Sketch", Georgia, serif;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Inputs */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+dt {
+  width: 100px;
+  padding: 10px;
+  float: left;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+dd {
+  width: 200px;
+  float: left;
+}
+
+select, input[type="text"], textarea{
+  background: #fff;
+  border: dotted thin #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  outline: none;
+}
+select {
+  width: 220px;
+}
+
+label{
+  float: left;
+  width: 120px;
+}
+
+input[type=submit]{
+  font-family: "Actor", Georgia, serif;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  padding: 7px 15px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  background-color: #a6F4c3;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a6f4c3), to(#44b873)) !important;
+  background-image: -webkit-linear-gradient(top, #a6f4c3, #44b873) !important;
+  background-image: -moz-linear-gradient(top, #a6f4c3, #44b873) !important;
+  background-image: -ms-linear-gradient(top, #a6f4c3, #44b873) !important;
+  background-image: -o-linear-gradient(top, #a6f4c3, #44b873) !important;
+  color: white !important;
+  box-shadow: inset 0 1px 1px white, 0 3px 3px rgba(0,0,0,0.6);
+  border: 1px solid #8AFFB9 !important;
+  font-weight: 600;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+input[type=submit]:hover{
+  cursor:pointer;
+  cursor:hand;
+}
+
+.contact-form{
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 10px;
+}
+.contact-form .inner{
+  padding: 10px;
+}

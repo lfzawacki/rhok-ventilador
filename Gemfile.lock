@@ -121,6 +121,7 @@ GEM
       polyglot (>= 0.3.1)
     tzinfo (0.3.31)
     watchr (0.7)
+    will_paginate (3.0.2)
     wirble (0.1.3)
     xpath (0.1.4)
       nokogiri (~> 1.3)
@@ -137,4 +138,5 @@ DEPENDENCIES
   rspec-rails
   steak
   watchr
+  will_paginate
   wirble

@@ -5,6 +5,7 @@ gem 'rails', '3.1.1'
 gem 'pg'
 gem 'wirble'
 gem 'hirb'
+gem 'will_paginate'
 
 
 # Bundle gems for the local environment. Make sure to

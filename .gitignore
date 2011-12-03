@@ -1,0 +1,17 @@
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+.rvmrc
+.*.sw[a-z]
+.DS_Store
+Thumbs.db
+Desktop.ini
+._*
+.Spotlight-V100
+.Trashes
+.swp
+/*.sublime-project
+*.tmproj
+*.tmproject
+tmtags

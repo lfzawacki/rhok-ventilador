@@ -1,7 +1,13 @@
 <div class="card">
   <h3><%= request.name %></h3>
   <p><%= request.description %></p>
-  <div class="user"><%= request.user.name %></div>
+  <div class="info">
+	<div class="user">
+		<!-- user image ? -->
+		<p><%= request.user.name %></p>
+		<p><%= request.status_changes.length %> comentarios.</p>
+	</div>
+  </div>
   em
   <div class="category"><%= request.category.name %></div>
   <div class="votes"><%= request.votes.size %></div>
